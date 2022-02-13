@@ -1,16 +1,12 @@
 import React from "react";
 import Join from "./Join";
-import AliceCarousel from "react-alice-carousel";
+
 import "react-alice-carousel/lib/alice-carousel.css";
 
 const Roadmap = () => {
   return (
     <div className="h-full">
-      <div>
-        {/* <h1 className="md:text-9xl text-5xl ont text-center text-[#4c5a77] lineHorizontal my-20">
-            COMING SOON
-          </h1> */}
-      </div>
+      
       <div>
         <div className="flex flex-row justify-center items-center ont  m-10 ">
           <h1 className="text-5xl vh">Roadmap</h1>
@@ -160,9 +156,13 @@ const Roadmap = () => {
                 <br />
                 <strong className="">Marketing:</strong>
                 <br />
-                <small className="font-normal">- 4th round of marketing push </small>
+                <small className="font-normal">
+                  - 4th round of marketing push{" "}
+                </small>
                 <br />
-                <small className="font-normal">- more influencer promotional material</small>
+                <small className="font-normal">
+                  - more influencer promotional material
+                </small>
                 <br />
                 <small className="font-normal">
                   - partnership establishment
@@ -197,14 +197,19 @@ const Roadmap = () => {
               <p className="">
                 <strong className="">Releases:</strong>
                 <br />
-                <small className="font-normal"> - ecosystem itegral token INU</small>
+                <small className="font-normal">
+                  {" "}
+                  - ecosystem itegral token INU
+                </small>
                 <br />
                 <small className="font-normal">- NFT Marketplace</small>
                 <br />
                 <br />
                 <strong className="">Listings:</strong>
                 <br />
-                <small className="font-normal">- TIER 1 centralized exchange application</small>                
+                <small className="font-normal">
+                  - TIER 1 centralized exchange application
+                </small>
                 <br />
                 <br />
                 <strong className="">Marketing:</strong>
@@ -232,15 +237,15 @@ const Roadmap = () => {
                   - NFT sales related charities donation
                 </small>
                 <br />
-                <small className="font-normal">- Debuting development of Centralized Exchange</small>
+                <small className="font-normal">
+                  - Debuting development of Centralized Exchange
+                </small>
                 <br />
                 <small className="font-normal">
                   - centralized exchange legan aspect handling
                 </small>
                 <br />
-                <small className="font-normal">
-                  ecosystem update 4
-                </small>
+                <small className="font-normal">ecosystem update 4</small>
                 <br />
                 <small className="font-normal">
                   decentralized exchange update 2
@@ -254,10 +259,11 @@ const Roadmap = () => {
             </div>
             <div>
               <h6 className="uppercase text-2xl inline  ">Phase6</h6>
-                <br />
+              <br />
               <p>
                 <small className="font-normal">
-                  - Merchandise/ pop up shop</small>
+                  - Merchandise/ pop up shop
+                </small>
               </p>
             </div>
           </div>
