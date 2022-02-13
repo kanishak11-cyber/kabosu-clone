@@ -20,7 +20,7 @@ const Footer = () => {
       {/* end icons */}
       <div className=" text-center md:text-sm text-xs mt-5 text-[#4c5a77]">
         <h1>
-          Copyright © 2021 Kabosu Token. All Rights Reserved - Privacy Policy -
+          Copyright © 2022 Kabosu Token. All Rights Reserved - Privacy Policy -
           Terms & Conditions
         </h1>
       </div>
