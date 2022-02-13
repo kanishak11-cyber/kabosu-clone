@@ -18,7 +18,7 @@ const Navbar = () => {
               />
             </div>
 
-            <h1 className="text-4xl justify-center items-center text-center border-b-4 border-pink-600  ">
+            <h1 className="text-4xl block  justify-center items-center text-center border-b-4 border-pink-600  ">
               <a href="/">Kabosu</a>
             </h1>
           </div>
@@ -26,7 +26,7 @@ const Navbar = () => {
         <div className="text-white md:flex hidden list-none flex-row justify-evenly items-center flex-initial">
           <div className="flex flex-row justify-evenly  navbar-brand items-center">
             <div className="justify-items-center  px-2">
-              <a href="/about" className="text-lg justify-center">
+              <a href="/about" className="text-lg block justify-center">
                 About
               </a>
             </div>
@@ -93,18 +93,18 @@ const Navbar = () => {
                     RoadMap
                   </h1>
                 </div>
-                <div className="justify-items-center px-2">
-                  <a href="/join" className="text-lg justify-center">
+                <div className="justify-items-center py-3">
+                  <a href="#join" className="text-lg justify-center">
                     Join
                   </a>
                 </div>
-                <div className="justify-items-center px-2">
+                <div className="justify-items-center py-3">
                   <a href="/contact" className="text-lg justify-center">
                     Contact
                   </a>
                 </div>
                 <div className="justify-items-center py-3 ">
-                  <button className="md:text-3xl text-lg justify-center border-4 rounded-full">
+                  <button className="md:text-3xl text-lg justify-center border rounded-full">
                     <h1 className="md:px-5 px-2 navbar-brand">Buy kabosu</h1>
                   </button>
                 </div>
