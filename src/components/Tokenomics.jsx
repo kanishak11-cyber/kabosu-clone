@@ -1,8 +1,10 @@
 import React from "react";
 import liquid from "../assets/liquidity.png";
 import tax from "../assets/tax.png";
+import Roadmap from "./Roadmap";
 const Tokenomics = () => {
   return (
+    <div>
     <div className="bg-gradient-to-r ont p-5 h-full  text-white from-[#eb79b8] to-[#eba63f] ">
       <div className="justify-between">
         <div className="text-center justify-center my-10">
@@ -39,6 +41,8 @@ const Tokenomics = () => {
           </div>
         </div>
       </div>
+    </div>
+    <Roadmap/>
     </div>
   );
 };

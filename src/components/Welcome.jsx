@@ -2,14 +2,18 @@ import React from "react";
 import logo from "../assets/kabousababy.png";
 import { FaChartLine, FaShoppingCart } from "react-icons/fa";
 import { BsShieldShaded } from "react-icons/bs";
+import About from "./About";
+import Navbar from "./Navbar";
 const Welcome = () => {
   return (
-    <div className=" bg-gradient-to-r from-[#eb79b8] to-[#eba63f] text-center   text-white ont  px-10">
-      <div className="flex flex-col   ">
+    <div>
+      {/* <Navbar/> */}
+    <div className=" bg-gradient-to-r from-[#eb79b8] to-[#eba63f] text-center    text-white ont  px-10">
+      <div className="flex flex-col  bg-gradient-to-r from-[#eb79b8] to-[#eba63f] text-center  ">
         <div className="rounded-full  place-self-center  md:w-1/5 w-1/3 hover:transition-transform hover:scale-110  ">
           <img
             src={logo}
-            alt=""
+            alt="logo"
             className="  bg-white  rounded-full hover:transition-transform hover:scale-110"
           />
         </div>
@@ -45,6 +49,9 @@ const Welcome = () => {
           </h1>
         </button>
       </div>
+    </div>
+    <About/>
+
     </div>
   );
 };

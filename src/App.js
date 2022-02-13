@@ -7,19 +7,22 @@ import Navbar from "./components/Navbar";
 import Roadmap from "./components/Roadmap";
 import Tokenomics from "./components/Tokenomics";
 import Welcome from "./components/Welcome";
-
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      <Navbar className="fixed" />
-      <Welcome />
-
-      <About />
-      <Tokenomics />
-      <Roadmap />
-      <Join />
-      <Contact/>
-      <Footer/>
+    <div className=" ">
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Welcome />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/roadmap" element={<Roadmap />} />
+          <Route path="/tokenomics" element={<Tokenomics />} />
+          <Route path="/join" element={<Join />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+      </Router>
     </div>
   );
 }

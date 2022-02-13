@@ -1,9 +1,10 @@
 import React from "react";
 import ball from "../assets/ball.png";
+import Tokenomics from "./Tokenomics";
 const About = () => {
   return (
     <div>
-      <div className="m-10">
+      <div className="m-10 ">
         <div className="flex flex-row justify-center items-center   ">
           <h1 className="md:text-9xl text-5xl   text-pink-400 font-extrabold justify-center text-center opacity-10  ">
             かぼす
@@ -45,6 +46,7 @@ const About = () => {
           />
         </div>
       </div>
+      <Tokenomics/>
     </div>
   );
 };

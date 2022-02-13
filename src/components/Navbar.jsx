@@ -6,38 +6,53 @@ import { AiOutlineClose } from "react-icons/ai";
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <div className="bg-gradient-to-r from-[#eb79b8] to-[#eba63f]  text-white ont">
-      <nav className="w-full flex md:justify-center justify-between items-center p-4">
-        <div className="md:flex-[0.5] flex-initial  justify-between items-center">
+    <div className="bg-gradient-to-r from-[#eb79b8]  to-[#eba63f] h-24 bg-white text-white ont">
+      <nav className="w-full flex md:justify-center justify-between fixed  items-center p-4">
+        <div className="md:flex-[0.5] flex-initial bg-transparent z-10 justify-between  items-center">
           <div className="flex flex-row justify-center items-center">
-          <div className="w-20 h-20 rounded-full items-center">
-           <img
-               src={home}
-           alt="home"
-               className="w-20 h-20 rounded-full  object-cover"
-             />
-           </div>
-          
-             <h1 className="text-4xl justify-center items-center text-center border-b-4 border-pink-600  ">
-               <a href="/">Kabosu</a>
-             </h1>
-           
-           </div>
+            <div className="w-20 h-20 rounded-full items-center">
+              <img
+                src={home}
+                alt="home"
+                className="w-20 h-20 rounded-full  object-cover"
+              />
+            </div>
+
+            <h1 className="text-4xl justify-center items-center text-center border-b-4 border-pink-600  ">
+              <a href="/">Kabosu</a>
+            </h1>
+          </div>
         </div>
         <div className="text-white md:flex hidden list-none flex-row justify-evenly items-center flex-initial">
           <div className="flex flex-row justify-evenly  navbar-brand items-center">
             <div className="justify-items-center  px-2">
-              <h1 className="text-2xl justify-center">About</h1>
+              <a href="/about" className="text-lg justify-center">
+                About
+              </a>
             </div>
             <div className="justify-items-center px-2">
-              <h1 className="text-2xl justify-center">Tokenomics</h1>
+              <a href="/tokenomics" className="text-lg justify-center">
+                Tokenomics
+              </a>
             </div>
             <div className="justify-items-center px-2">
-              <h1 className="text-2xl justify-center">RoadMap</h1>
+              <a href="/roadmap" className="text-lg justify-center">
+                RoadMap
+              </a>
             </div>
-            <div className="justify-items-center px-2 ">
-              <button className=" text-2xl justify-center border-4 rounded-full">
-                <h1 className="px-5 navbar-brand">Buy kabosu</h1>
+            <div className="justify-items-center px-2">
+              <a href="/join" className="text-lg justify-center">
+                Join
+              </a>
+            </div>
+            <div className="justify-items-center px-2">
+              <a href="/contact" className="text-lg justify-center">
+                Contact
+              </a>
+            </div>
+            <div className="justify-items-center px-2 py-3">
+              <button className=" text-lg justify-center border rounded-full">
+                <h1 className="px-5 py-2 navbar-brand">Buy kabosu</h1>
               </button>
             </div>
           </div>
@@ -69,10 +84,24 @@ const Navbar = () => {
                   <h1 className="md:text-3xl text-lg justify-center">About</h1>
                 </div>
                 <div className="justify-items-center py-3 ">
-                  <h1 className="md:text-3xl text-lg justify-center">Tokenomics</h1>
+                  <h1 className="md:text-3xl text-lg justify-center">
+                    Tokenomics
+                  </h1>
                 </div>
                 <div className="justify-items-center py-3">
-                  <h1 className="md:text-3xl text-lg justify-center">RoadMap</h1>
+                  <h1 className="md:text-3xl text-lg justify-center">
+                    RoadMap
+                  </h1>
+                </div>
+                <div className="justify-items-center px-2">
+                  <a href="/join" className="text-lg justify-center">
+                    Join
+                  </a>
+                </div>
+                <div className="justify-items-center px-2">
+                  <a href="/contact" className="text-lg justify-center">
+                    Contact
+                  </a>
                 </div>
                 <div className="justify-items-center py-3 ">
                   <button className="md:text-3xl text-lg justify-center border-4 rounded-full">
@@ -80,47 +109,12 @@ const Navbar = () => {
                   </button>
                 </div>
               </div>
-            
             </ul>
           )}
         </div>
       </nav>
     </div>
-    // <div className="justify-center  sticky  ">
-    //   <div className="justify-between px-3 py-5 bg-gradient-to-r flex flex-row  from-[#eb79b8] to-[#eba63f]  text-white">
-    //     <div className="flex flex-row ont-a">
-    //       <div className="w-20 h-20 rounded-full items-center">
-    //         <img
-    //           src={home}
-    //           alt="home"
-    //           className="w-20 h-20 rounded-full  object-cover"
-    //         />
-    //       </div>
-    //       <div className=" ">
-    //         <h1 className="text-5xl justify-center items-center text-center border-b-4 border-pink-600  ">
-    //           <a href="/">Kabosu</a>
-    //         </h1>
-    //       </div>
-    //     </div>
-
-    //     <div className="flex flex-row justify-evenly w-3/5  navbar-brand items-center">
-    //       <div className="justify-items-center ">
-    //         <h1 className="text-3xl justify-center">About</h1>
-    //       </div>
-    //       <div className="justify-items-center ">
-    //         <h1 className="text-3xl justify-center">Tokenomics</h1>
-    //       </div>
-    //       <div className="justify-items-center ">
-    //         <h1 className="text-3xl justify-center">RoadMap</h1>
-    //       </div>
-    //       <div className="justify-items-center  ">
-    //         <button className=" text-3xl justify-center border-4 rounded-full">
-    //          <h1 className="px-5 navbar-brand">Buy kabosu</h1>
-    //         </button>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
+    
   );
 };
 

@@ -7,8 +7,10 @@ import {
   FaReddit,
   FaDiscord,
 } from "react-icons/fa";
+import Contact from "./Contact";
 const Join = () => {
   return (
+    <div>
     <div className="bg-gradient-to-r ont p-5 h-full  text-white from-[#eb79b8] to-[#eba63f] ">
       <div className="text-center justify-center ont ">
         <h1 className="text-3xl md:5xl my-5">Join Our Community</h1>
@@ -57,6 +59,8 @@ const Join = () => {
           </div>
         </div>
       </div>
+    </div>
+    <Contact/>
     </div>
   );
 };
