@@ -2,6 +2,7 @@ import "./App.css";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Join from "./components/Join";
 import Navbar from "./components/Navbar";
 import Roadmap from "./components/Roadmap";
 import Tokenomics from "./components/Tokenomics";
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Tokenomics />
       <Roadmap />
+      <Join />
       <Contact/>
       <Footer/>
     </div>

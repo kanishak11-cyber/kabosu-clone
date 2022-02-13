@@ -2,10 +2,13 @@ import React from "react";
 
 const Roadmap = () => {
   return (
-    <div>
+    <div className="h-screen">
       <div>
         <div className="flex flex-row justify-center items-center ont mt-10 ">
           <h1 className="text-2xl vl">Roadmap</h1>
+        </div>
+        <div>
+            <h1 className='text-9xl ont text-center text-[#4c5a77] my-20'>COMING SOON</h1>
         </div>
       </div>
     </div>
