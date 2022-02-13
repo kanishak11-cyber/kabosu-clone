@@ -14,7 +14,7 @@ const Welcome = () => {
           />
         </div>
         <div className="py-5  ">
-          <h1 className="md:text-6xl  text-lg">The offical CEO of Doge</h1>
+          <h1 className="md:text-6xl ont text-lg">The offical CEO of Doge</h1>
         </div>
         <div className="py-5">
           <h1 className="md:text-xl text-sm">
