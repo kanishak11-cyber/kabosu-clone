@@ -25,31 +25,25 @@ const Navbar = () => {
         </div>
         <div className="text-white md:flex hidden list-none flex-row justify-evenly items-center flex-initial">
           <div className="flex flex-row justify-evenly  navbar-brand items-center">
-            <li className="justify-items-center  px-2">
-              <a href="about" className="text-lg block justify-center scroll-smooth">
-                About
-              </a>
-            </li>
-            <div className="justify-items-center px-2">
-              <a href="/tokenomics" className="text-lg justify-center">
-                Tokenomics
-              </a>
-            </div>
-            <div className="justify-items-center px-2">
-              <a href="/roadmap" className="text-lg justify-center">
-                RoadMap
-              </a>
-            </div>
-            <div className="justify-items-center px-2">
-              <a href="/join" className="text-lg justify-center">
-                Join
-              </a>
-            </div>
-            <div className="justify-items-center px-2">
-              <a href="/contact" className="text-lg justify-center">
-                Contact
-              </a>
-            </div>
+            <a
+              href="about"
+              className="text-lg block justify-center scroll-smooth"
+            >
+              <div className="justify-items-center  px-2">About</div>
+            </a>
+            <a href="/tokenomics" className="text-lg justify-center">
+              <div className="justify-items-center px-2">Tokenomics</div>{" "}
+            </a>
+            <a href="/roadmap" className="text-lg justify-center">
+              <div className="justify-items-center px-2">RoadMap</div>{" "}
+            </a>
+            <a href="/join" className="text-lg justify-center">
+              <div className="justify-items-center px-2">Join</div>
+            </a>
+            <a href="/contact" className="text-lg justify-center">
+              <div className="justify-items-center px-2">Contact</div>{" "}
+            </a>
+
             <div className="justify-items-center px-2 py-3">
               <button className=" text-lg justify-center border rounded-full">
                 <h1 className="px-5 py-2 navbar-brand">Buy kabosu</h1>
@@ -85,34 +79,30 @@ const Navbar = () => {
                 <AiOutlineClose onClick={() => setToggleMenu(false)} />
               </li>
               <div className=" items-center">
-                <div className="justify-items-center py-3 ">
-                  <h1 className="md:text-3xl text-lg justify-center">About</h1>
-                </div>
-                <div className="justify-items-center py-3 ">
-                  <h1 className="md:text-3xl text-lg justify-center">
-                    Tokenomics
-                  </h1>
-                </div>
-                <div className="justify-items-center py-3">
-                  <h1 className="md:text-3xl text-lg justify-center">
-                    RoadMap
-                  </h1>
-                </div>
-                <div className="justify-items-center py-3">
-                  <a href="#join" className="text-lg justify-center">
-                    Join
-                  </a>
-                </div>
-                <div className="justify-items-center py-3">
-                  <a href="/contact" className="text-lg justify-center">
-                    Contact
-                  </a>
-                </div>
-                <div className="justify-items-center py-3 ">
-                  <button className="md:text-3xl text-lg justify-center border rounded-full">
-                    <h1 className="md:px-5 px-2 navbar-brand">Buy kabosu</h1>
-                  </button>
-                </div>
+              <a
+              href="about"
+              className="text-lg block justify-center scroll-smooth"
+            >
+              <div className="justify-items-center  px-2">About</div>
+            </a>
+            <a href="/tokenomics" className="text-lg justify-center">
+              <div className="justify-items-center px-2">Tokenomics</div>{" "}
+            </a>
+            <a href="/roadmap" className="text-lg justify-center">
+              <div className="justify-items-center px-2">RoadMap</div>{" "}
+            </a>
+            <a href="/join" className="text-lg justify-center">
+              <div className="justify-items-center px-2">Join</div>
+            </a>
+            <a href="/contact" className="text-lg justify-center">
+              <div className="justify-items-center px-2">Contact</div>{" "}
+            </a>
+
+            <div className="justify-items-center eth-card rounded-full">
+              <button className=" text-md justify-center border rounded-full">
+                <h1 className="px-3 py-1 navbar-brand">Buy kabosu</h1>
+              </button>
+              </div>
               </div>
             </ul>
           )}
