@@ -5,13 +5,13 @@ import "react-alice-carousel/lib/alice-carousel.css";
 
 const Roadmap = () => {
   return (
-    <div className="h-full">
+    <div className="h-full body">
       
       <div>
         <div className="flex flex-row justify-center items-center ont  m-10 ">
           <h1 className="text-5xl vh">Roadmap</h1>
         </div>
-        <div className="flex flex-row md:px-20 px-10 md:py-10 text-center  justify-evenly  overflow-x-scroll relative text-xl capitalize text-[#4c5a77]  ont">
+        <div className="flex flex-row md:px-20 px-10 md:py-10 text-center   overflow-x-scroll  text-xl capitalize text-[#4c5a77]  ont">
           <div className="flex flex-row  ">
             <div>
               <h6 className="uppercase text-2xl ">Phase 1</h6>

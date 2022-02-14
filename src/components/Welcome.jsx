@@ -8,7 +8,7 @@ const Welcome = () => {
   return (
     <div>
     
-    <div className=" bg-gradient-to-r from-[#eb79b8] to-[#eba63f] text-center    text-white ont  px-10">
+    <div className=" bg-gradient-to-r from-[#eb79b8] to-[#eba63f] text-center    text-white ont  py-3">
       <div className="flex flex-col  bg-gradient-to-r from-[#eb79b8] to-[#eba63f] text-center  ">
         <div className="rounded-full  place-self-center  md:w-1/5 w-1/3 hover:transition-transform hover:scale-110  ">
           <img

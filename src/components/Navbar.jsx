@@ -6,8 +6,8 @@ import { AiOutlineClose } from "react-icons/ai";
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <div className="bg-gradient-to-r from-[#eb79b8]  to-[#eba63f] h-24 bg-white text-white ont">
-      <nav className="w-full flex md:justify-center justify-between fixed  items-center p-4">
+    <header className="bg-gradient-to-r from-[#eb79b8]  to-[#eba63f] h-24 bg-white text-white ont">
+      <nav className="w-full flex md:justify-center justify-between   items-center p-4">
         <div className="md:flex-[0.5] flex-initial bg-transparent z-10 justify-between  items-center">
           <div className="flex flex-row justify-center items-center">
             <div className="w-20 h-20 rounded-full items-center">
@@ -25,11 +25,11 @@ const Navbar = () => {
         </div>
         <div className="text-white md:flex hidden list-none flex-row justify-evenly items-center flex-initial">
           <div className="flex flex-row justify-evenly  navbar-brand items-center">
-            <div className="justify-items-center  px-2">
-              <a href="/about" className="text-lg block justify-center">
+            <li className="justify-items-center  px-2">
+              <a href="about" className="text-lg block justify-center scroll-smooth">
                 About
               </a>
-            </div>
+            </li>
             <div className="justify-items-center px-2">
               <a href="/tokenomics" className="text-lg justify-center">
                 Tokenomics
@@ -54,6 +54,11 @@ const Navbar = () => {
               <button className=" text-lg justify-center border rounded-full">
                 <h1 className="px-5 py-2 navbar-brand">Buy kabosu</h1>
               </button>
+              <p className="scrolldown">
+                <a className="smoothscroll" href="#about">
+                  <i className="icon-down-circle"></i>
+                </a>
+              </p>
             </div>
           </div>
         </div>
@@ -113,8 +118,7 @@ const Navbar = () => {
           )}
         </div>
       </nav>
-    </div>
-    
+    </header>
   );
 };
 
