@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,700;0,800;0,900;1,700&display=swap');
 
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"); */
 
 * html {
   padding: 0;
@@ -56,27 +56,7 @@
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
-@layer utilities {
-  .scrollbar::-webkit-scrollbar {
-    width: 20px;
-    height: 20px;
-  }
 
-  .scrollbar::-webkit-scrollbar-track {
-    border-radius: 100vh;
-    background: #f7f4ed;
-  }
-
-  .scrollbar::-webkit-scrollbar-thumb {
-    background: #e0cbcb;
-    border-radius: 100vh;
-    border: 3px solid #f6f7ed;
-  }
-
-  .scrollbar::-webkit-scrollbar-thumb:hover {
-    background: #c0a0b9;
-  }
-}
 .eth-card {
   background-color:#a099ff;
   background-image: 

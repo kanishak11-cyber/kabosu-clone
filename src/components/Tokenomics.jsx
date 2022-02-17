@@ -1,6 +1,6 @@
 import React from "react";
-import liquid from "../assets/liquidity.png";
-import tax from "../assets/tax.png";
+// import liquid from "../assets/liquidity.png";
+// import tax from "../assets/tax.png";
 import Donut from "./charts/Donut";
 import Dough from "./charts/Dough";
 import Roadmap from "./Roadmap";

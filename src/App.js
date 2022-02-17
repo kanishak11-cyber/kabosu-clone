@@ -8,6 +8,9 @@ import Roadmap from "./components/Roadmap";
 import Tokenomics from "./components/Tokenomics";
 import Welcome from "./components/Welcome";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,700;0,800;0,900;1,700&display=swap');
+</style>
 function App() {
   return (
     <div className=" ">

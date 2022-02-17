@@ -6,18 +6,22 @@ import "react-alice-carousel/lib/alice-carousel.css";
 const Roadmap = () => {
   return (
     <div className="h-full body">
-      
       <div>
         <div className="flex flex-row justify-center items-center ont  m-10 ">
-          <h1 className="text-5xl vh">Roadmap</h1>
+          <h1 className="text-5xl vh ">Roadmap</h1>
+          <div className="line1"></div>
         </div>
-        <div className="flex flex-row md:px-20 px-10 md:py-10 text-center   overflow-x-scroll  text-xl capitalize text-[#4c5a77]  ont">
+        <div className="flex flex-row md:px-20 px-10 md:py-10 text-center  w-[75vw] mx-20 overflow-hidden overflow-x-scroll  text-xl capitalize text-[#4c5a77]  ont">
           <div className="flex flex-row  ">
+            <div className="bg-[#EBA36F] w-3 rounded-full h-3 p-2   mt-9 "></div>
+
             <div>
-              <h6 className="uppercase text-2xl ">Phase 1</h6>
+              <h6 className="uppercase text-2xl ">Phase 1
               <div className="line1"></div>
-              <div className="w-5 h-5 mx-24 bg-[#79a] rounded-full"></div>
-              <div className="vl align-middle mx-28"></div>
+              <div className="w-5 h-5 mx-2 -mt-2.5   md:ml-[7.5vw]  ml-[20.5vw] bg-[#8484CF] rounded-full"></div>
+              <div className="vl align-middle mx-28 mt-5 "></div>
+              </h6>
+
               <br />
               <p className="">
                 <strong className="">Releases:</strong>
@@ -47,11 +51,13 @@ const Roadmap = () => {
                 </small>
               </p>
             </div>
+            {/* <div className="bg-[#EBA36F] w-3 rounded-full h-3 p-2   mt-9 "></div> */}
+
             <div>
-              <h6 className="uppercase text-2xl ">Phase 2</h6>
+              <h6 className="uppercase text-2xl ">Phase 2
               <div className="line1"></div>
-              <div className="w-5 h-5 mx-24 bg-[#79a] rounded-full"></div>
-              <div className="vl align-middle mx-28"></div>
+              <div className="w-5 h-5 mx-2 -mt-2.5  md:ml-[7.5vw]  ml-[20.5vw] bg-[#8441Ab] rounded-full"></div>
+              <div className="vl align-middle mx-28 mt-5"></div></h6>
               <br />
               <p className="">
                 <strong className="">Listings:</strong>
@@ -91,11 +97,13 @@ const Roadmap = () => {
                 </small>
               </p>
             </div>
+            {/* <div className="bg-[#EBA36F] w-3 rounded-full h-3 p-2   mt-9 "></div> */}
+
             <div>
-              <h6 className="uppercase text-2xl">Phase 3</h6>
+              <h6 className="uppercase text-2xl">Phase 3
               <div className="line1"></div>
-              <div className="w-5 h-5 mx-24 bg-[#79a] rounded-full"></div>
-              <div className="vl align-middle mx-28"></div>
+              <div className="w-5 h-5 mx-2 -mt-2.5 justify-center md:ml-[7.5vw] ml-[20.5vw] bg-[#CAF9EC] rounded-full"></div>
+              <div className="vl align-middle mx-28 mt-5"></div></h6>
               <br />
               <p className="">
                 <strong className="">Releases:</strong>
@@ -150,11 +158,12 @@ const Roadmap = () => {
                 <br />
               </p>
             </div>
+            {/* <div className="bg-[#EBA36F] w-3 rounded-full h-3 p-2   mt-9 "></div> */}
             <div>
-              <h6 className="uppercase text-2xl ">Phase 4</h6>
+              <h6 className="uppercase text-2xl ">Phase 4
               <div className="line1"></div>
-              <div className="w-5 h-5 mx-24 bg-[#79a] rounded-full"></div>
-              <div className="vl align-middle mx-28"></div>
+              <div className="w-5 h-5 mx-2 -mt-2.5   md:ml-[7.5vw] ml-[20.5vw] bg-[#1F6BAE] rounded-full"></div>
+              <div className="vl align-middle mx-28 mt-5"></div></h6>
               <br />
               <p className="">
                 <strong className="">Releases:</strong>
@@ -203,11 +212,13 @@ const Roadmap = () => {
                 <br />
               </p>
             </div>
+            {/* <div className="bg-[#EBA36F] w-3 rounded-full h-3 p-2   mt-9 "></div> */}
+
             <div>
-              <h6 className="uppercase text-2xl">Phase 5</h6>
+              <h6 className="uppercase text-2xl">Phase 5
               <div className="line1"></div>
-              <div className="w-5 h-5 mx-24 bg-[#79a] rounded-full"></div>
-              <div className="vl align-middle mx-28"></div>
+              <div className="w-5 h-5 mx-2 -mt-2.5   md:ml-[7.5vw] ml-[20.5vw] bg-[#FDFD96] rounded-full"></div>
+              <div className="vl align-middle mx-28 mt-5"></div></h6>
               <br />
               <p className="">
                 <strong className="">Releases:</strong>
@@ -272,11 +283,13 @@ const Roadmap = () => {
                 <br />
               </p>
             </div>
+            {/* <div className="bg-[#EBA36F] w-3 rounded-full h-3 p-2   mt-9 "></div> */}
+
             <div>
-              <h6 className="uppercase text-2xl inline  ">Phase6</h6>
+              <h6 className="uppercase text-2xl  ">Phase6
               <div className="line1"></div>
-              <div className="w-5 h-5 mx-24 bg-[#79a] rounded-full"></div>
-              <div className="vl align-middle mx-28"></div>
+              <div className="w-5 h-5 mx-2 -mt-2.5 md:ml-[7.5vw] ml-[20.5vw] bg-[#B19CD9] rounded-full"></div>
+              <div className="vl align-middle mx-28 mt-5"></div></h6>
               <br />
               <p>
                 <small className="font-normal">
@@ -284,6 +297,7 @@ const Roadmap = () => {
                 </small>
               </p>
             </div>
+            <div className="bg-[#EBA36F] w-3 rounded-full h-3 p-2   mt-9 "></div>
           </div>
         </div>
       </div>

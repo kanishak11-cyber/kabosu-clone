@@ -84,6 +84,7 @@ const Donut = () => {
 
   return (
     <div className="text-white">
+      <h1>DISTRIBUTION</h1>
       <Doughnut data={data} style={{ width: "28vw", height: "28vh" }} />
       {/* <div className="rounded-full w-32 h-32">
             <img src={kabu} alt="" className="z-10 -mt-48  ml-32 mb-1 rounded-full" />

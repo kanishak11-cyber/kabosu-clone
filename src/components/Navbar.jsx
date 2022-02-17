@@ -29,19 +29,19 @@ const Navbar = () => {
               href="about"
               className="text-lg block justify-center scroll-smooth"
             >
-              <div className="justify-items-center  px-2">About</div>
+              <div className="justify-items-center hover:text-[#fdfd96] px-2">About</div>
             </a>
             <a href="/tokenomics" className="text-lg justify-center">
-              <div className="justify-items-center px-2">Tokenomics</div>{" "}
+              <div className="justify-items-center hover:text-[#fdfd96] px-2">Tokenomics</div>{" "}
             </a>
             <a href="/roadmap" className="text-lg justify-center">
-              <div className="justify-items-center px-2">RoadMap</div>{" "}
+              <div className="justify-items-center hover:text-[#fdfd96] px-2">RoadMap</div>{" "}
             </a>
             <a href="/join" className="text-lg justify-center">
-              <div className="justify-items-center px-2">Join</div>
+              <div className="justify-items-center hover:text-[#fdfd96] px-2">Join</div>
             </a>
             <a href="/contact" className="text-lg justify-center">
-              <div className="justify-items-center px-2">Contact</div>{" "}
+              <div className="justify-items-center hover:text-[#fdfd96] px-2">Contact</div>{" "}
             </a>
             <a
               href="https://pancakeswap.finance/swap#/swap?outputCurrency=0x4A824eE819955A7D769e03fe36f9E0C3Bd3Aa60b"
