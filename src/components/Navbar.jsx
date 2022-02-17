@@ -43,17 +43,22 @@ const Navbar = () => {
             <a href="/contact" className="text-lg justify-center">
               <div className="justify-items-center px-2">Contact</div>{" "}
             </a>
-
-            <div className="justify-items-center px-2 py-3">
-              <button className=" text-lg justify-center border rounded-full">
-                <h1 className="px-5 py-2 navbar-brand">Buy kabosu</h1>
-              </button>
-              <p className="scrolldown">
+            <a
+              href="https://pancakeswap.finance/swap#/swap?outputCurrency=0x4A824eE819955A7D769e03fe36f9E0C3Bd3Aa60b"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              <div className="justify-items-center px-2 py-3">
+                <button className=" text-lg justify-center border rounded-full">
+                  <h1 className="px-5 py-2 navbar-brand">Buy kabosu</h1>
+                </button>
+                {/* <p className="scrolldown">
                 <a className="smoothscroll" href="#about">
                   <i className="icon-down-circle"></i>
                 </a>
-              </p>
-            </div>
+              </p> */}
+              </div>
+            </a>
           </div>
         </div>
         <div className="flex relative">
@@ -79,30 +84,46 @@ const Navbar = () => {
                 <AiOutlineClose onClick={() => setToggleMenu(false)} />
               </li>
               <div className=" items-center">
-              <a
-              href="about"
-              className="text-lg block justify-center scroll-smooth"
-            >
-              <div className="justify-items-center  px-2">About</div>
-            </a>
-            <a href="/tokenomics" className="text-lg justify-center">
-              <div className="justify-items-center px-2">Tokenomics</div>{" "}
-            </a>
-            <a href="/roadmap" className="text-lg justify-center">
-              <div className="justify-items-center px-2">RoadMap</div>{" "}
-            </a>
-            <a href="/join" className="text-lg justify-center">
-              <div className="justify-items-center px-2">Join</div>
-            </a>
-            <a href="/contact" className="text-lg justify-center">
-              <div className="justify-items-center px-2">Contact</div>{" "}
-            </a>
+                <a
+                  href="about"
+                  className="text-lg block justify-center scroll-smooth"
+                >
+                  <div className="justify-items-center  px-2">About</div>
+                </a>
+                <a href="/tokenomics" className="text-lg justify-center">
+                  <div className="justify-items-center px-2">Tokenomics</div>{" "}
+                </a>
+                <a href="/roadmap" className="text-lg justify-center">
+                  <div className="justify-items-center px-2">RoadMap</div>{" "}
+                </a>
+                <a href="/join" className="text-lg justify-center">
+                  <div className="justify-items-center px-2">Join</div>
+                </a>
+                <a href="/contact" className="text-lg justify-center">
+                  <div className="justify-items-center px-2">Contact</div>{" "}
+                </a>
 
-            <div className="justify-items-center eth-card rounded-full">
-              <button className=" text-md justify-center border rounded-full">
-                <h1 className="px-3 py-1 navbar-brand">Buy kabosu</h1>
-              </button>
-              </div>
+                <a
+                  href="https://pancakeswap.finance/swap#/swap?outputCurrency=0x4A824eE819955A7D769e03fe36f9E0C3Bd3Aa60b"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="justify-items-center eth-card rounded-full">
+                    
+                    <a
+                      href="https://pancakeswap.finance/swap#/swap?outputCurrency=0x4A824eE819955A7D769e03fe36f9E0C3Bd3Aa60b"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <h1 className="px-3 py-1 navbar-brand">
+                        Buy kabosu
+                      </h1>
+                      
+                    </a>
+                    
+                    
+                  </div>
+                </a>
               </div>
             </ul>
           )}

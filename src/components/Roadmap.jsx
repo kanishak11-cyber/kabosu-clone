@@ -15,6 +15,9 @@ const Roadmap = () => {
           <div className="flex flex-row  ">
             <div>
               <h6 className="uppercase text-2xl ">Phase 1</h6>
+              <div className="line1"></div>
+              <div className="w-5 h-5 mx-24 bg-[#79a] rounded-full"></div>
+              <div className="vl align-middle mx-28"></div>
               <br />
               <p className="">
                 <strong className="">Releases:</strong>
@@ -46,6 +49,9 @@ const Roadmap = () => {
             </div>
             <div>
               <h6 className="uppercase text-2xl ">Phase 2</h6>
+              <div className="line1"></div>
+              <div className="w-5 h-5 mx-24 bg-[#79a] rounded-full"></div>
+              <div className="vl align-middle mx-28"></div>
               <br />
               <p className="">
                 <strong className="">Listings:</strong>
@@ -87,6 +93,9 @@ const Roadmap = () => {
             </div>
             <div>
               <h6 className="uppercase text-2xl">Phase 3</h6>
+              <div className="line1"></div>
+              <div className="w-5 h-5 mx-24 bg-[#79a] rounded-full"></div>
+              <div className="vl align-middle mx-28"></div>
               <br />
               <p className="">
                 <strong className="">Releases:</strong>
@@ -143,6 +152,9 @@ const Roadmap = () => {
             </div>
             <div>
               <h6 className="uppercase text-2xl ">Phase 4</h6>
+              <div className="line1"></div>
+              <div className="w-5 h-5 mx-24 bg-[#79a] rounded-full"></div>
+              <div className="vl align-middle mx-28"></div>
               <br />
               <p className="">
                 <strong className="">Releases:</strong>
@@ -193,6 +205,9 @@ const Roadmap = () => {
             </div>
             <div>
               <h6 className="uppercase text-2xl">Phase 5</h6>
+              <div className="line1"></div>
+              <div className="w-5 h-5 mx-24 bg-[#79a] rounded-full"></div>
+              <div className="vl align-middle mx-28"></div>
               <br />
               <p className="">
                 <strong className="">Releases:</strong>
@@ -259,6 +274,9 @@ const Roadmap = () => {
             </div>
             <div>
               <h6 className="uppercase text-2xl inline  ">Phase6</h6>
+              <div className="line1"></div>
+              <div className="w-5 h-5 mx-24 bg-[#79a] rounded-full"></div>
+              <div className="vl align-middle mx-28"></div>
               <br />
               <p>
                 <small className="font-normal">

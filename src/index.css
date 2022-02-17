@@ -122,8 +122,19 @@
   height: 70px;
 }
 
-
-
+.line1{
+ height: 2px;
+ background-color: #e83e8c;
+  margin-top: 10px;
+  max-width: 500 auto;
+}
+.vl {
+  /* background-color: #ff6900; */
+  border-left: 2px solid #e83e8c;
+ 
+  align-items: center;
+  height: 50px;
+}
 .sliderimg{
   width: 50%;
   height: 100px;
