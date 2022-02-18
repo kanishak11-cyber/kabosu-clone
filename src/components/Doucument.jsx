@@ -6,8 +6,8 @@ import Roadmap from "./Roadmap";
 const Doucument = () => {
   return (
       <div>
-    <div className="flex md:flex-row flex-col bg-gradient-to-r from-[#eb79b8]  to-[#eba63f] text-white ont justify-center items-center text-center">
-      <div className="flex  w-[80vw] flex-row">
+    <div className=" bg-gradient-to-r from-[#eb79b8]  to-[#eba63f] text-white ont justify-center">
+      <div className="flex md:flex-row flex-col text-center px-10">
         <div className="">
           <a
             href="https://www.youtube.com/watch?v=lS2GvkBvrAM"
@@ -21,12 +21,12 @@ const Doucument = () => {
         </div>
         <div>
           <h1 className="text-5xl">Our documents</h1>
-          <hr></hr>
+          <div className="border-b-8 border-pink-400 mx-64 mt-5 w-32  justify-center"></div>
           <p className="my-10 font-medium">
             You can find links to our official white paper and independent audit
             below so you can be confident knowing you are in good hands with us!
           </p>
-          <div className="flex flex-row justify-evenly p-5 mt-5 capitalize">
+          <div className="flex md:flex-row flex-col justify-evenly p-5 mt-5 capitalize">
           <div className="flex flex-row mx-5 ">
               <div className="mt-4 -mr-14 z-10 w-20 h-32">
                 <img src={cov1} alt="" className="" />
