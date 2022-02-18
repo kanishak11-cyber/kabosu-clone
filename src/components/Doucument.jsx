@@ -20,8 +20,8 @@ const Doucument = () => {
           </a>
         </div>
         <div>
-          <h1 className="text-5xl">Our documents</h1>
-          <div className="border-b-8 border-pink-400 mx-64 mt-5 w-32  justify-center"></div>
+          <h1 className="md:text-5xl text-3xl">Our documents</h1>
+          <div className="border-b-8 border-pink-400 md:mx-64 mx-32 mt-5 w-32  justify-center"></div>
           <p className="my-10 font-medium">
             You can find links to our official white paper and independent audit
             below so you can be confident knowing you are in good hands with us!
