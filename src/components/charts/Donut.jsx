@@ -11,6 +11,7 @@ const data = {
     height: "28vh",
     color: "white",
     alignItems: "center",
+    
   },
   labels: [
     "Marketing 6%",
@@ -84,8 +85,8 @@ const Donut = () => {
 
   return (
     <div className="text-white">
-      <h1>DISTRIBUTION</h1>
-      <Doughnut data={data} style={{ width: "28vw", height: "28vh" }} />
+      <h1 className="md:text-3xl text-xl">DISTRIBUTION</h1>
+      <Doughnut data={data}  />
       {/* <div className="rounded-full w-32 h-32">
             <img src={kabu} alt="" className="z-10 -mt-48  ml-32 mb-1 rounded-full" />
       </div> */}

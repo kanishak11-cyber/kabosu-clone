@@ -8,6 +8,7 @@ import Roadmap from "./components/Roadmap";
 import Tokenomics from "./components/Tokenomics";
 import Welcome from "./components/Welcome";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Doucument from "./components/Doucument";
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,700;0,800;0,900;1,700&display=swap');
 </style>
@@ -24,6 +25,7 @@ function App() {
             <Route path="/" element={<Welcome />}></Route>
             <Route path="/about" element={<About />} />
             <Route path="/roadmap" element={<Roadmap />} />
+            <Route path='/docs' element={<Doucument/>}/>
             <Route path="/tokenomics" element={<Tokenomics />} />
             <Route path="/join" element={<Join />} />
             <Route path="/contact" element={<Contact />} />

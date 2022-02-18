@@ -34,6 +34,9 @@ const Navbar = () => {
             <a href="/tokenomics" className="text-lg justify-center">
               <div className="justify-items-center hover:text-[#fdfd96] px-2">Tokenomics</div>{" "}
             </a>
+            <a href="/docs" className="text-lg justify-center">
+              <div className="justify-items-center hover:text-[#fdfd96] px-2">Documents</div>{" "}
+            </a>
             <a href="/roadmap" className="text-lg justify-center">
               <div className="justify-items-center hover:text-[#fdfd96] px-2">RoadMap</div>{" "}
             </a>

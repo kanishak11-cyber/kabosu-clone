@@ -6,8 +6,8 @@ import Dough from "./charts/Dough";
 import Roadmap from "./Roadmap";
 const Tokenomics = () => {
   return (
-    <div>
-      <div className="bg-gradient-to-r ont p-5 h-full  text-white from-[#eb79b8] to-[#eba63f] ">
+    <div className="w-full">
+      <div className="bg-gradient-to-r ont p-5 h-full w-full text-white from-[#eb79b8] to-[#eba63f] ">
         <div className="justify-between">
           <div className="text-center justify-center my-10">
             <h1 className="ont md:text-5xl text-2xl p-5"> Our Tokenomics</h1>
@@ -16,16 +16,13 @@ const Tokenomics = () => {
               100 000 000 000 000 Total Supply{" "}
             </h1>
           </div>
-          <div className="flex flex-col md:flex-row justify-center my-10">
-            <div className="items-center text-center mt-2 ">
-              <div className="object-center items-center  md:px-52 px-36  ">
-                <Donut />
-              </div>
+          <div className="flex flex-col md:flex-row text-center justify-evenly my-10">
+            <div className="   p-2 ">
+              <Donut />
             </div>
-            <div className="items-center text-center mt-2   ">
-              <div className="object-center items-center md:px-52 px-36">
-                <Dough />
-              </div>
+
+            <div className="p-2 ">
+              <Dough />
             </div>
           </div>
         </div>

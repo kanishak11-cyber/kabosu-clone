@@ -13,7 +13,7 @@ const About = () => {
             who is kabosu?
           </h1>
         </div>
-        <div className="text-center text-[#4c5a77]">
+        <div className="text-center justify-center text-[#4c5a77]">
           <div className="my-5">
             <p className="text-[#4c5a77] md:text-2xl text-lg italic font-medium">
               <strong>
@@ -34,16 +34,19 @@ const About = () => {
               The goal of Kabosu is to prevent dogs of all breeds from being
               abandoned. For this reason we will be making regular donations to
               community chosen dog charities!
-            </p>
-          </div>
-        </div>
-        <div className=" my-5 justify-center  items-center">
-            
-          <img
+            </p><div className=" justify-between">
+         <img
             src={ball}
             alt="ball"
-            className=" items-center md:mx-56 object-cover"
+            className=" my-5 object-center"
           />
+        </div>
+            
+          </div>
+          
+        
+            
+          
         </div>
       </div>
       <Tokenomics/>
