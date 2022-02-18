@@ -3,7 +3,8 @@ import React from "react";
 // import tax from "../assets/tax.png";
 import Donut from "./charts/Donut";
 import Dough from "./charts/Dough";
-import Roadmap from "./Roadmap";
+import Doucument from "./Doucument";
+
 const Tokenomics = () => {
   return (
     <div className="w-full">
@@ -17,17 +18,18 @@ const Tokenomics = () => {
             </h1>
           </div>
           <div className="flex flex-col md:flex-row text-center justify-evenly my-10">
-            <div className="   p-2 ">
+            <div className="  ">
               <Donut />
             </div>
 
-            <div className="p-2 ">
+            <div className="">
               <Dough />
             </div>
           </div>
         </div>
       </div>
-      <Roadmap />
+      <Doucument />
+      {/* <Roadmap /> */}
     </div>
   );
 };

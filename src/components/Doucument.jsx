@@ -2,8 +2,10 @@ import React from "react";
 import paper from "../assets/whitepaper.png";
 import cov1 from "../assets/whitecover.png";
 import cov2 from "../assets/auditcover.png";
+import Roadmap from "./Roadmap";
 const Doucument = () => {
   return (
+      <div>
     <div className="flex md:flex-row flex-col bg-gradient-to-r from-[#eb79b8]  to-[#eba63f] text-white ont justify-center items-center text-center">
       <div className="flex  w-[80vw] flex-row">
         <div className="">
@@ -46,6 +48,8 @@ const Doucument = () => {
           </div>
         </div>
       </div>
+    </div>
+    <Roadmap />
     </div>
   );
 };
