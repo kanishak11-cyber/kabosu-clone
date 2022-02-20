@@ -1,5 +1,5 @@
 import React from "react";
-import {AiFillPlayCircle} from 'react-icons/ai'
+// import {AiFillPlayCircle} from 'react-icons/ai'
 import paper from "../assets/whitepaper.png";
 import cov1 from "../assets/whitecover.png";
 import cov2 from "../assets/auditcover.png";

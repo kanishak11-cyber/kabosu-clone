@@ -5,8 +5,8 @@ import "react-alice-carousel/lib/alice-carousel.css";
 
 const Roadmap = () => {
   return (
-    <div className="md:px-20 md:py-10 px:10 py-5 ">
-      <div>
+    <div >
+      <div className="md:px-20 md:py-10 px:10 py-5 ">
         <div className="flex flex-row justify-center items-center ont  ">
           <h1 className="text-5xl vh mx-5 ">Roadmap</h1>
           <div className="line1"></div>
