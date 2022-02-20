@@ -5,18 +5,18 @@ import "react-alice-carousel/lib/alice-carousel.css";
 
 const Roadmap = () => {
   return (
-    <div className="h-full body">
+    <div className="md:px-20 md:py-10 px:10 py-5 ">
       <div>
         <div className="flex flex-row justify-center items-center ont  ">
           <h1 className="text-5xl vh mx-5 ">Roadmap</h1>
           <div className="line1"></div>
         </div>
-        <div className="flex flex-row md:px-14 px-7 md:py-5 text-center overflow-hidden  mx-5 overflow-x-auto  text-xl capitalize text-[#4c5a77]  ont">
-          <div className="flex flex-row  ">
+        <div className="flex flex-row md:p-8 px-7  text-center overflow-hidden  overflow-x-auto  text-xl capitalize text-[#4c5a77]  ont">
+          <div className="flex flex-row ">
             <div className="bg-[#EBA36F] w-3 rounded-full h-3 p-2   mt-9 "></div>
 
             <div>
-              <h6 className="uppercase text-2xl ">
+              <h6 className="uppercase text-2xl  ">
                 Phase 1<div className="line1 "></div>
                 <div className="justify-center items-center ">
                   <div className="w-5 h-5 mx-[6.25rem] -mt-2.5 bg-[#8484CF] rounded-full"></div>

@@ -2,8 +2,8 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="justify-center bg-pink-50 p-10">
-      <div className="m-10">
+    <div className="justify-center bg-pink-50 md:p-10 p-5">
+      <div className="md:m-10 m-5">
         <div className="text-center">
           <h1 className="text-pink-500 md:text-5xl text-2xl ont ">Contact Kabosu</h1>
           <p className="text-[#4c5a77] md:text-xl text-md my-5 justify-center md:mx-52">

@@ -96,7 +96,19 @@
   font-family: 'Nunito','', sans-serif;
   font-weight: 800;
 }
-
+.play-icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 22px;
+    width: 12px;
+    margin-left: 1px;
+    border:#0f0e13 2px solid;
+    transform: translate(-50%,-50%);
+  }
+.play-btn-s2{
+  background-image: linear-gradient(to right, #e87cbe 0%, #eb79b8 100%);
+}
 .vh{
   border-bottom: 6px solid rgb(245, 65, 95);
   height: 70px;

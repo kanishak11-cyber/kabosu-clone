@@ -10,6 +10,7 @@ const data = {
     "Redistribution to all holders 1%",
     "Rewards 3%",
     "Marketing 3%",
+    
   ],
   datasets: [
     {
@@ -28,16 +29,10 @@ const data = {
 };
 const Dough = () => {
   return (
-    <div className="text-white">
-      <h1>UTILITIES <br/> & <br/> SLIPPAGE</h1>
-      <Doughnut data={data}  />
-      {/* <div className="rounded-full w-32 h-32 -mt-48 ml-28 m-1">
-        <img
-          src={kabu}
-          alt=""
-          className="z-10   mb-1 rounded-full"
-        />
-      </div> */}
+    <div className="p-5 text-white">
+      <h1 className="md:text-3xl text-xl">UTILITIES &  SLIPPAGE</h1>
+      <Doughnut data={data}  className='text-white my-2'  width={400} height={400}/>
+     
     </div>
   );
 };

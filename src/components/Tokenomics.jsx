@@ -7,8 +7,8 @@ import Doucument from "./Doucument";
 
 const Tokenomics = () => {
   return (
-    <div className="w-full">
-      <div className="bg-gradient-to-r ont p-5 h-full w-full text-white from-[#eb79b8] to-[#eba63f] ">
+    <div className="w-full ">
+      <div className="bg-gradient-to-r ont p-5 px-10 text-white from-[#eb79b8] to-[#eba63f] ">
         <div className="justify-between">
           <div className="text-center justify-center my-10">
             <h1 className="ont md:text-5xl text-2xl p-5"> Our Tokenomics</h1>
@@ -18,13 +18,8 @@ const Tokenomics = () => {
             </h1>
           </div>
           <div className="flex flex-col md:flex-row text-center justify-evenly my-10">
-            <div className="  ">
-              <Donut />
-            </div>
-
-            <div className="">
-              <Dough />
-            </div>
+            <Donut className='m-2' />
+            <Dough className='m-2' />
           </div>
         </div>
       </div>
