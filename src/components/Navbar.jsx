@@ -29,22 +29,34 @@ const Navbar = () => {
               href="about"
               className="text-lg block justify-center scroll-smooth"
             >
-              <div className="justify-items-center hover:text-[#fdfd96] px-2">About</div>
+              <div className="justify-items-center hover:text-[#fdfd96] px-2">
+                About
+              </div>
             </a>
             <a href="/tokenomics" className="text-lg justify-center">
-              <div className="justify-items-center hover:text-[#fdfd96] px-2">Tokenomics</div>{" "}
+              <div className="justify-items-center hover:text-[#fdfd96] px-2">
+                Tokenomics
+              </div>{" "}
             </a>
             <a href="/docs" className="text-lg justify-center">
-              <div className="justify-items-center hover:text-[#fdfd96] px-2">Documents</div>{" "}
+              <div className="justify-items-center hover:text-[#fdfd96] px-2">
+                Documents
+              </div>{" "}
             </a>
             <a href="/roadmap" className="text-lg justify-center">
-              <div className="justify-items-center hover:text-[#fdfd96] px-2">RoadMap</div>{" "}
+              <div className="justify-items-center hover:text-[#fdfd96] px-2">
+                RoadMap
+              </div>{" "}
             </a>
             <a href="/join" className="text-lg justify-center">
-              <div className="justify-items-center hover:text-[#fdfd96] px-2">Join</div>
+              <div className="justify-items-center hover:text-[#fdfd96] px-2">
+                Join
+              </div>
             </a>
             <a href="/contact" className="text-lg justify-center">
-              <div className="justify-items-center hover:text-[#fdfd96] px-2">Contact</div>{" "}
+              <div className="justify-items-center hover:text-[#fdfd96] px-2">
+                Contact
+              </div>{" "}
             </a>
             <a
               href="https://pancakeswap.finance/swap#/swap?outputCurrency=0x4A824eE819955A7D769e03fe36f9E0C3Bd3Aa60b"
@@ -55,11 +67,6 @@ const Navbar = () => {
                 <button className=" text-lg justify-center border rounded-full">
                   <h1 className="px-5 py-2 navbar-brand">Buy kabosu</h1>
                 </button>
-                {/* <p className="scrolldown">
-                <a className="smoothscroll" href="#about">
-                  <i className="icon-down-circle"></i>
-                </a>
-              </p> */}
               </div>
             </a>
           </div>
@@ -112,19 +119,13 @@ const Navbar = () => {
                   rel="noreferrer"
                 >
                   <div className="justify-items-center eth-card rounded-full">
-                    
                     <a
                       href="https://pancakeswap.finance/swap#/swap?outputCurrency=0x4A824eE819955A7D769e03fe36f9E0C3Bd3Aa60b"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <h1 className="px-3 py-1 navbar-brand">
-                        Buy kabosu
-                      </h1>
-                      
+                      <h1 className="px-3 py-1 navbar-brand">Buy kabosu</h1>
                     </a>
-                    
-                    
                   </div>
                 </a>
               </div>

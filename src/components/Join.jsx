@@ -7,7 +7,7 @@ import {
   FaReddit,
   FaDiscord,
 } from "react-icons/fa";
-import Contact from "./Contact";
+
 const Join = () => {
   return (
     <div>
@@ -77,7 +77,6 @@ const Join = () => {
           </div>
         </div>
       </div>
-      <Contact />
     </div>
   );
 };

@@ -1,10 +1,15 @@
-import React from "react";
-// import {AiFillPlayCircle} from 'react-icons/ai'
+import React, { forwardRef, useImperativeHandle } from "react";
 import paper from "../assets/whitepaper.png";
 import cov1 from "../assets/whitecover.png";
 import cov2 from "../assets/auditcover.png";
-import Roadmap from "./Roadmap";
-const Doucument = () => {
+
+const Doucument = forwardRef((props, ref) => {
+  useImperativeHandle(ref, () => ({
+    // function to scroll to the component
+    scroll: () => {
+      ref.current.scrollIntoView({ behavior: "smooth" });
+    },
+  }));
   return (
     <div className="">
       <hr/>
@@ -71,9 +76,9 @@ const Doucument = () => {
           </div>
         </div>
       </div>
-      <Roadmap />
+      
     </div>
   );
-};
+});
 
 export default Doucument;

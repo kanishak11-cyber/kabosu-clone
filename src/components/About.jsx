@@ -1,7 +1,15 @@
-import React from "react";
+import React, { forwardRef, useImperativeHandle } from "react";
 import ball from "../assets/ball.png";
-import Tokenomics from "./Tokenomics";
-const About = () => {
+const About = forwardRef((props, ref) => {
+  
+  useImperativeHandle(ref, () => ({
+    // function to scroll to the component
+    
+    scroll: () => {
+      ref.current.scrollIntoView({ behavior: "smooth" });
+    },
+  }));
+
   return (
     <div>
       <div className="m-10 ">
@@ -34,24 +42,16 @@ const About = () => {
               The goal of Kabosu is to prevent dogs of all breeds from being
               abandoned. For this reason we will be making regular donations to
               community chosen dog charities!
-            </p><div className=" justify-between">
-         <img
-            src={ball}
-            alt="ball"
-            className=" my-5 object-center"
-          />
-        </div>
-            
+            </p>
+            <div className=" justify-between">
+              <img src={ball} alt="ball" className=" my-5 object-center" />
+            </div>
           </div>
-          
-        
-            
-          
         </div>
       </div>
-      <Tokenomics/>
+      
     </div>
   );
-};
+});
 
 export default About;

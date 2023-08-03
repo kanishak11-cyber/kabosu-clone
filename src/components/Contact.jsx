@@ -1,6 +1,12 @@
-import React from "react";
+import React, { forwardRef, useImperativeHandle } from "react";
 
-const Contact = () => {
+const Contact = forwardRef((props, ref) => {
+  useImperativeHandle(ref, () => ({
+    // function to scroll to the component
+    scroll: () => {
+      ref.current.scrollIntoView({ behavior: "smooth" });
+    },
+  }));
   return (
     <div className="justify-center bg-pink-50 md:p-10 p-5">
       <div className="md:m-10 m-5">
@@ -38,6 +44,6 @@ const Contact = () => {
       </div>
     </div>
   );
-};
+});
 
 export default Contact;
